@@ -65,6 +65,8 @@ new Phaser.Game({
         .setOrigin(0, 0)
         .setCollideWorldBounds();
 
+      this.mario.body.setSize(8, 16)
+
       // PIPE
 
       // PHYSICS
